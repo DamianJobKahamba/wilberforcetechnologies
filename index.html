@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wilberforce Technologies - Building Systems That Serve All of Us</title>
+    <link rel="icon" type="image/png" href="favicon-32.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body data-page="home">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="logo.jpeg" alt="Wilberforce Technologies" class="logo-img">
+                <span class="logo-text">Wilberforce Technologies</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link" data-page="home">Home</a></li>
+                <li><a href="about.html" class="nav-link" data-page="about">About Us</a></li>
+                <li><a href="products.html" class="nav-link" data-page="products">Products</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-inner">
+            <p class="hero-eyebrow">Wilberforce Technologies</p>
+            <h1 class="hero-title-big">
+                Building <strong>Systems</strong>
+                <span class="hero-title-sub">That Serve All Of Us</span>
+            </h1>
+            <p class="hero-desc">
+                Technology solutions that open systems rather than close them — excellent for those who can afford excellence, and accessible to those still climbing toward it.
+            </p>
+            <a href="#explore" class="hero-cta">Learn More</a>
+            <a href="#explore" class="hero-chevron" aria-label="Scroll down">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Hexagon quick links -->
+    <section id="explore" class="hex-section">
+        <div class="container">
+            <div class="hex-grid">
+                <a href="about.html" class="hex hex-about reveal">
+                    <h3>About Us</h3>
+                    <span class="hex-btn">Learn More</span>
+                </a>
+                <a href="products.html" class="hex hex-products reveal">
+                    <h3>Products</h3>
+                    <span class="hex-btn">Learn More</span>
+                </a>
+                <a href="#contact" class="hex hex-contact reveal">
+                    <h3>Contact</h3>
+                    <span class="hex-btn">Learn More</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission blurb -->
+    <section class="blurb-section">
+        <div class="container">
+            <hr class="blurb-divider">
+            <p class="blurb-text">
+                Wilberforce Technologies builds affordable, practical technology and systems that make life more organized, dignified, and accessible — starting in Tanzania and East Africa. We do not believe we can change human nature or eliminate inequality. We believe we can make the floor higher and the ladder more climbable.
+            </p>
+            <hr class="blurb-divider">
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <span class="section-label">Get in Touch</span>
+                    <h2>Contact Us</h2>
+                    <p class="lead">Ready to build systems that serve everyone? Let's talk about how we can work together.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>contact@wilberforcetech.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Tallahassee, Florida, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send us a message</h3>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="logo.jpeg" alt="Wilberforce Technologies" class="footer-logo">
+                    <h3>Wilberforce Technologies</h3>
+                    <p>Building systems that serve all of us.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="qms-chatbot.html">Customer Information Chatbot</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="mailto:contact@wilberforcetech.com">Email</a></li>
+                        <li><a href="https://github.com/damianjobkahamba" target="_blank">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Wilberforce Technologies. All rights reserved.</p>
+                <p>"We are building systems that serve all of us."</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
